@@ -1,0 +1,57 @@
+
+
+:root{
+    
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: hotpink;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.appbar{
+    background: red;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 20vw;
+}
+
+header{
+    background: gold;
+    height: 50vw;
+}
+
+.section-top{
+    background: blue;
+    height: 100vw;
+}
+
+nav{
+    background: green;
+    height: 50vw;
+}
+
+.section-bottom{
+    background: blue;
+    height: 100vw;
+}
+
+footer{
+    background: black;
+    display: flex;
+    margin-top: auto;
+    height: 40vw;
+}
+footer p{
+    margin-left: auto;
+}
