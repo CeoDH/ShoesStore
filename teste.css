@@ -213,6 +213,7 @@ footer{
     display: flex;
     /* padding: 0 15vw 0 15vw; */
     align-items: center;
+    font-family: Open Sans;
     color: white;
     padding: 3vw 0 2vw 2vw;
     justify-content: space-evenly;
@@ -248,6 +249,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     margin-right: 18vw;
+    font-family: Open Sans;
 }
 
 .footer-mid{
@@ -256,6 +258,7 @@ footer{
     justify-content: left;
     max-width: 6vw;
     margin-right: 15vw;
+    font-family: Open Sans;
     font-weight: 100;
     line-height: 1.5;
 }
@@ -265,6 +268,7 @@ footer{
     flex-direction: column;
     justify-content: left;
     max-width: 14vw;
+    font-family: Open Sans;
     font-size: 1.4vw;
     font-weight: 100;
     line-height: 1.3;
