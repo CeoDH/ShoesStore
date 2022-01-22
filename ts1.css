@@ -10,6 +10,9 @@
     box-sizing: border-box;
 }
 
+.💪{ display: flex }
+.💠{ justify-content: center; align-items: center; }
+
 body{
     min-height: 100vh;
     background: hotpink;
@@ -51,7 +54,10 @@ footer{
     display: flex;
     margin-top: auto;
     height: 40vw;
-}
+}/*
 footer p{
     margin-left: auto;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
