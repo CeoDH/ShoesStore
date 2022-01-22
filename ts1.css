@@ -10,6 +10,9 @@
     box-sizing: border-box;
 }
 
+.💪{ display: flex }
+.💠{ justify-content: center; align-items: center; }
+
 body{
     min-height: 100vh;
     background: hotpink;
@@ -52,9 +55,10 @@ footer{
     display: flex;
     margin-top: auto;
     height: 40vw;
-}
+}/*
 footer p{
     margin-left: auto;
+<<<<<<< HEAD
 }
 
 
@@ -76,3 +80,9 @@ activitybar{ background-attachment: #2d3037; }
 sidebar{ background-color: #24272c; }
 statusbar{ background-color: #1c1c21; }
 
+=======
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+>>>>>>> a82a89390e1e87c49c7a2147d7ef3c4e4a5a3f14
