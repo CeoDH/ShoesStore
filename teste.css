@@ -8,7 +8,6 @@
 }
 
 body{
-    /* width: 100%; */
     min-height: 100vh;
     justify-content: center;
 }
@@ -41,7 +40,6 @@ body{
     cursor: pointer;
 }
 
-.banner{  }
 
 .banner img{
     width: 100%;
@@ -57,10 +55,9 @@ body{
     text-align: center;
     font-family: Open Sans;
     font-size: max(16px, 3.5vw);
-    background: red;
+    /* background: red; */
 }
-.section-title img{
-}
+
 .banner-img-left{
     max-width: 33vw;
 }
@@ -75,9 +72,7 @@ body{
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     "card-left card-right";
-    /* gap: 1vw; */
     margin: 6vw 0 0 0;
-    /* padding: 18px 0px 18px 0px; */
 }
 
 .banner-card-left{
@@ -106,14 +101,8 @@ body{
     font-style: bold;
     font-size: max(16px, 2vw);
     padding: 0px 0 50px 0;
-    background-color: red; 
+    /* background-color: red;  */
 }
-/*
-.midNav-Cards{
-    background-color: blueviolet; 
-    gap: 15px;
-    padding: 0 12vw 0 12vw;
-}*/
 
 .midNav-Card{
     min-height: fit-content;
@@ -144,39 +133,32 @@ body{
 
 /* bottom */
 .bottom{
-    /* background-color: yellow; */
-  /*  display: flex;
-    justify-content: center;*/
     align-self: stretch; 
     margin: 15vw 6vw 15vw 6vw;
-    background: red;
+    /* background: red; */
     width: 90vw;
 }
 
 .bottom-left{
-    background-color: tomato;
+    /* background-color: tomato; */
     min-width: 50%;
     min-height: 100%;
-    padding: 0 8px 0 0;
+    padding: 0 10px 0 0;
     display: flex;
     flex-direction: column;
     align-self: stretch;
     justify-content: space-between;
 }
 .bottom-left img{
-    /*padding: 0 8px 0 0px;*/
     width: 100%;
-    
-    /*align-self: stretch;*/
 }
 
 .bottom-right{
     /* background-color: tomato; */
     min-width: 50%;
-    padding: 0;
+    padding: 0 0 0 10px;
 }
 .bottom-right img{
-   /* padding: 0 0 0 8px;*/
     width: 100%;
 }
 
@@ -211,7 +193,6 @@ body{
 footer{
     background-color: #C2185B;
     display: flex;
-    /* padding: 0 15vw 0 15vw; */
     align-items: center;
     font-family: Open Sans;
     color: white;
@@ -232,9 +213,6 @@ footer{
     justify-content: left;
     max-width: 18vw;
     margin-right: 15vw;
-}
-.footer-logo img{
-    /* background-color: red; */
 }
 
 .footer-content{

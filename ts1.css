@@ -21,9 +21,10 @@ body{
 .appbar{
     background: red;
     position: fixed;
-    z-index: 1;
+    /* z-index: 1; */
     width: 100vw;
-    height: 20vw;
+    height: 8vw;
+    /* margin-bottom: 108vw; */
 }
 
 header{
@@ -55,3 +56,23 @@ footer{
 footer p{
     margin-left: auto;
 }
+
+
+div { display: flex;}
+.div { justify-content: center;}
+#div { align-items: center;}
+
+
+v{ background-color: #0097a7 }
+k{ background-color: #ef6155 }
+n{ background-color: #e96ba8 }
+c{ background-color: #ff9e00 }
+f{ background-color: #48b685 }
+s{ background-color: #ffffff }
+o{ background-color: #43a2ad }
+c{ background-color: #736363a9 }
+editor{ background-color: #1c1c21; }
+activitybar{ background-attachment: #2d3037; }
+sidebar{ background-color: #24272c; }
+statusbar{ background-color: #1c1c21; }
+
