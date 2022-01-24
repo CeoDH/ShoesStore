@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
- <style type="text/css" media="all">
+ <style>
  
      *{
          margin: 0;
@@ -21,14 +21,28 @@
          flex-wrap: wrap;
          width: 100vw;
          height: 100vh;
+         background: #1b1d21;
          color: #fff;
      }
      .box{
          width: 100vw;
-         height: 10vh;
-         background: #1b1d21;
+         height: 10vh;/*
+         background: #1b1d21;*/
          display: grid;
          place-items: center;
+     }
+     .btn{
+         display: grid;
+         place-items: center;
+         background: blue;
+         border-radius: 50px;
+         color: white;
+         font-weight: 600;
+         padding: 2px 28px;
+         cursor: pointer;
+     }
+     .btn:hover{
+         background: #ff9e00;
      }
      nav{
          min-width: 100%;
@@ -56,20 +70,21 @@
     <title></title>
 </head>
 
-<body>
+<body id="body">
     
-    <div class="box">
-        <nav class="overlay00" onclick="changeBoxSizes()">
+    <div class="box" id="box0">
+        <nav class="overlay00">
             <div>
                 #000000
             </div>
+            <input type="button" name="" class="btn" id="btn" value="valor" onclick="chngBtnBg()"/>
             <div>
                 00dp 00%
             </div>
         </nav>
         
     </div>
-    <div class="box" id="box">
+    <div class="box" id="box1">
         <nav class="overlay05">
             <div>
                 #000000
@@ -162,16 +177,30 @@
     
     
     
-    <script type="text/javascript" charset="utf-8">
+    <script>
     
-        var observer = false!
+        var observer = true;
         
         function changeBoxSizes() {
             
-            document.getElementById( "box" ).style.height = "20vw";
+            document.getElementById( "btn" ).style.background = "red";
             
             
         }
+        
+        function chngBtnBg() {
+            
+            if( observer ) {
+                document.getElementById( "body" ).style.background = "#121212";
+                observer = false;
+            } else if( !observer ) {
+                document.getElementById( "body" ).style.background = "#1b1d21";
+                observer = true;
+            }
+            
+        }
+            
+        
         
     </script>
 
