@@ -59,7 +59,7 @@
 <body>
     
     <div class="box">
-        <nav class="overlay00">
+        <nav class="overlay00" onclick="changeBoxSizes()">
             <div>
                 #000000
             </div>
@@ -69,7 +69,7 @@
         </nav>
         
     </div>
-    <div class="box">
+    <div class="box" id="box">
         <nav class="overlay05">
             <div>
                 #000000
@@ -102,7 +102,7 @@
     <div class="box">
         <nav class="overlay09">
             <div>
-                #0000000
+                #000000
             </div>
             <div>
                 04dp 09%
@@ -162,7 +162,18 @@
     
     
     
+    <script type="text/javascript" charset="utf-8">
     
+        var observer = false!
+        
+        function changeBoxSizes() {
+            
+            document.getElementById( "box" ).style.height = "20vw";
+            
+            
+        }
+        
+    </script>
 
 </body>
 
