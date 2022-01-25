@@ -20,7 +20,8 @@
          align-items: center;*/
          flex-wrap: wrap;
          width: 100vw;
-         height: 100vh;
+         height: 100%;
+         min-height: 100vh;
          background: #1b1d21;
          color: #fff;
      }
@@ -34,11 +35,15 @@
      .btn{
          display: grid;
          place-items: center;
-         background: blue;
+         background: #121212;
          border-radius: 50px;
          color: white;
          font-weight: 600;
+         font-size: 6vw;
          padding: 2px 28px;
+         border-style: none;
+         box-shadow: 0 0 15px 0px gold;
+         z-index: 5;
          cursor: pointer;
      }
      .btn:hover{
@@ -89,7 +94,8 @@
             <div>
                 #000000
             </div>
-            <div>
+             <input type="button" name="" class="btn" id="btn" value="valor" onclick="chngBtnBg()" />
+             <div>
                 01dp 05%
             </div>
         </nav>
@@ -99,6 +105,7 @@
             <div>
                 #000000
             </div>
+            <input type="button" name="" class="btn" id="btn" value="valor" onclick="chngBtnBg()" />
             <div>
                 02dp 07%
             </div>
@@ -109,6 +116,7 @@
             <div>
                 #000000
             </div>
+            <input type="button" name="" class="btn" id="btn" value="valor" onclick="chngBtnBg()" />
             <div>
                 03dp 08%
             </div>
