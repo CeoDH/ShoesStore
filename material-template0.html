@@ -36,7 +36,9 @@
          border-radius: 50px;
          color: white;
          font-weight: 600;
-         font-size: 6vw;
+         /* font-size: 6vw; */
+         /* font-size: clamp(16px, 4vw, 22px); */
+         font-size: min(max(16px, 1.73vw), 22px);
          padding: 2px 28px;
          border-style: none;
          box-shadow: 0 0 15px 0px gold;
@@ -174,7 +176,8 @@
             <div>
                 #000000
             </div>
-            <div>
+            <input type="button" value="bigButton" id="bigButton">
+            <div id="id">
                 24dp 16%
             </div>
         </nav>
@@ -210,6 +213,13 @@
             var n = Math.floor( Math.random() *( max - min ) ) + min;
             return n;
         }
+
+
+        setProperty("id", "background-color", "blue");
+
+        onEvent( "bigButton", "click", function() {
+            setProperty( "id", "background-color", "green" );
+        } );
             
         
         
