@@ -1,0 +1,128 @@
+
+
+Qual das alternativas está correta quanto a definição da cor de uma letra na página Web?{
+    todas as alternativas
+}
+
+
+
+Qual é o elemento que o professor utilizou para inserir espaço apenas na porção inferior da imagem e interna à sua borda?{
+    padding-bottom
+}
+
+
+
+Sobre utilizar imagens na sua página html, assinale as corretas:
+I- É possível utilizar imagens de outras páginas através de um link.
+II- Utiliza-se a tag <img> para adicionar imagens.
+III- É necessário estar dentro de uma div para adicionar imagens ao arquivo.{
+    1 e 2
+}
+
+
+
+Quais afirmações são verdadeiras:
+I- É impossível criar um botão se estiver utilizando bootstrap.
+II- Não é possível alterar um botão existente do bootstrap.
+III- É possível criar novos botões utilizando bootstrap.{
+    3
+}
+
+
+
+Você já conhece as listas básicas do HTML como <ol> e <ul>, porém no Bootstrap existe a tag <dl> (Definition List) capaz de fazer listas de definições. Os elementos que vão entre as tags <dl> e </dl> são de dois tipos: <dt> (Definition term) e <dd> (definition description). O texto entre <dt> e </dt> ficam em negrito e recebem o termo a ser definido, enquanto que o texto entre <dd> e </dd> recebem a descrição do termo. Sendo assim, veja abaixo a estrutura básica de uma lista de definição de alimentos e uma de suas propriedades nutritivas principais:
+<dl>
+<dt>Chia</dt><dd>Rico em proteína.</dd>
+<dt>Batata</dt><dd>Rico em carboidratos.</dd>
+<dt>Linhaça</dt><dd>Rico em ômega-3.</dd>
+</dl>
+
+Agora avalie as seguintes afirmativas de forma independente:
+I -  Se configurarmos no CSS dt{color:blue}, todos os termos entre <dt> e </dt> ficarão azuis.
+II - Para que tudo fique vermelho basta no CSS escrever dl{color:red}.
+III - Para que apenas a primeira e terceira linha sejam da cor azul você pode escrever um nome de classe para elas e configurar no CSS.
+IV - Para que a segunda linha tenha a descrição na cor roxa você pode criar um id só para ela.
+
+Estão corretas as alternativas:{
+    1 2 3 e 4
+}
+
+
+
+
+Qual das unidades de medida é válida para propriedades de padding?{
+    todas as alternativas
+}
+
+
+
+O cubo de Rubik, mais conhecido como cubo mágico, é um quebra-cabeça tridimensional. A versão mais conhecida é 3x3x3, com 6 cores diferentes. O tempo recorde pertence ao chinês Yusheng Du, da data de novembro de 2018 com a marca de apenas 3.47 segundos.
+Avalie abaixo a estrutura HTML de apenas um dos lados do cubo mágico:
+<div id="cubo" class="faceA">
+<div class="row">
+<div class="face vermelha col-lg-3"></div>
+<div class="face vermelha col-lg-3"></div>
+<div class="face vermelha col-lg-3"></div>
+</div>
+<div class="row">
+<div class="face amarela col-lg-3"></div>
+<div class="face azul col-lg-3"></div>
+<div class="face amarela col-lg-3"></div>
+</div>
+<div class="row">
+<div class="face azul col-lg-3"></div>
+<div class="face amarela col-lg-3"></div>
+<div class="face azul col-lg-3"></div>
+</div>
+</div>
+
+Avalie as afirmativas:
+I - Existe uma cor vermelha a mais que o permitido.
+II - A classe col-lg-3 deveria ser renomeada para col-lg-6.
+III - A classe col-lg-3 deveria ser renomeada para col-lg-4.
+IV - O cubo mágico está com apenas a primeira linha de mesma cor.
+V - Existem 3 cores que estão no outro lado do cubo, não visível deste lado.
+
+Estão corretas as afirmativas:{
+    3 4 e 5
+}
+
+
+
+
+Você foi convocado para listar os 5 livros mais vendidos de todos os tempos, na seguinte ordem:
+Dom Quixote, Um Conto de Duas Cidades, O Alquimista, O Pequeno Príncipe, Harry Potter e a Pedra Filosofal.
+Cada livro possuirá texto descritivo, imagem e redirecionará, a princípio, a um link fictício.
+
+Avalie as seguintes afirmativas:
+I - Para uma lista ordenada deve ser usada a tag <ul> ao invés de <ol>
+II - Cada livro possuirá uma tag <a> com atributo href específico.
+III - Cada livro com sua descrição, imagem e link pode estar dentro de uma tag <div>.
+IV - Se acharmos adequado podemos ter várias tag <div> dentro de outras tag <div>
+
+Estão corretas as alternativas:{
+    2 3 e 4
+}
+
+
+
+
+Qual das formas abaixo pode ser usada para verificar se o Bootstrap está funcionando?{
+    modificar o tamanho da tela
+}
+
+
+
+
+Qual das alternativas abaixo é a correta:
+I – O Bootstrap possui linguagens especificas as quais pode ser integrado, como PHP e Java.
+II – Possui uma grande quantidade de plug-ins.
+III – É responsivo.{
+    2 e 3
+}
+
+
+
+
+
+
