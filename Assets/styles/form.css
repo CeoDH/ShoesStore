@@ -278,17 +278,17 @@ footer{
 
 
 
-.form-bg{
-    background: blue;
+.scaffold{
+    /* background: blue; */
     display: flex;
     flex-direction: column;
     /* justify-content: stretch; */
     align-items: center;
-    padding: 4vw 4vw 4vw 8vw;
+    padding: 4vw 8vw 4vw 8vw;
 }
 
-.form-bg-title{
-    background: lightseagreen;
+.scaffold-title{
+    /* background: lightseagreen; */
     width: 100%;
     display: flex;
     justify-content: left;
@@ -298,30 +298,31 @@ footer{
     color: #575757;
 }
 
-.form-bg-body{
-    background: magenta;
+.main-body{
+    /* background: magenta; */
     display: flex;
-    justify-content: stretch;
-    align-items: center;
+    align-items: stretch;
     color: #9b9b9b;
 }
 
-.form-bg-left{
-    background: darkgreen;
+
+/* left side */
+.left-side{
+    /* background: darkgreen; */
     width: 50%;
     display: flex;
     flex-direction: column;
 }
-.form-bg-left label{
+.left-side label{
     padding-top: 1vw;
 }
-.form-bg-left form{
+.left-side form{
     display: flex;
     flex-direction: column;
     width: 90%;
 }
 .formDisponibilidade{
-    background: darkred;
+    /* background: darkred; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -329,53 +330,53 @@ footer{
     font-size: small;
     margin: .5vw 0 0 0;
 }
-.formDisponibilidade div{
-    /* background: chocolate; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-.formContatos{
+
+.formFormaDeContatos{
+    /* background: darkred; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: darkred;
     width: 60%;
     margin: .5vw 0 0 0;
 
 }
-.formContatos div{
-    /* padding-right: 6vw; */
-}
 
 input[type="file"] {
-    /* display: none; */
+    display: none;
 }
-#formCurriculo{
-    padding: 20px 10px;
-    width: 200px;
-    background-color: #333;
+.formCurriculo{
+    display: flex;
+    align-items: center;
+    margin: 1vw 0;
+}
+.formCurriculo label{
+    padding: .1vw 3vw;
+    margin: 0 1vw;
+    background-color: #C4C4C4;
     color: #FFF;
-    text-transform: uppercase;
     text-align: center;
-    margin-top: 10px;
     cursor: pointer;
 }
 .formEnviar{
     padding: .5vw 0;
-    background: #111;
+    background: #C2185B;
     color: #fff;
     border-style: none;
 }
 
 
-
-.form-bg-right{
-    background: darkred;
+/* right side */
+.right-side{
+    /* background: darkred; */
     width: 50%;
-    padding: 0vw 0 0 2vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 0 0 2vw;
 }
-.form-bg-right span{
-    text-align: justify;
+.right-side div{
+    /* background: #111;
+    border: yellow 2px solid; */
+    font-size: .9rem;
+    margin-bottom: 1vw;
 }
 

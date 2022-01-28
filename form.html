@@ -17,8 +17,8 @@
 </head>
 
     <body>
-
-
+<!-- --------------------------------------------------------------------------------
+    header  -->
         <header class="flexSb">
 
             <div class="logo">
@@ -33,19 +33,25 @@
             </nav>
             
         </header>
-        
+<!-- header
+------------------------------------------------------------------------------- -->  
 
 
 
-       
-        <main class="form-bg">
+<!-- -----------------------------------------------------------------------------
+    scaffold -->
+        <main class="scaffold">
 
-            <section class="form-bg-title">
+            <section class="scaffold-title">
                 <p>Faça parte do nosso time</p>
             </section>
 
-            <section class="form-bg-body">
-                <section class="form-bg-left">
+<!-- main body -->
+            <section class="main-body">
+
+<!-- left side -->
+                <section class="left-side">
+
                     <form action="/action_page" method="POST">
 
                         <label for="formName">Nome</label>
@@ -55,7 +61,7 @@
                         <input type="text" id="formEmail" name="formEmail" placeholder="Email">
                         
                         <label for="formTelefone">Telefone</label>
-                        <input type="formTelefone" name="formTelefone" id="formTelefone" placeholder="Telefone" pattern="\(\d{2}\)\s*\d{5}-\d{4}"   maxlength="15" required>
+                        <input type="tel" name="formTelefone" id="telefone" placeholder="Telefone" pattern="\(\d{2}\)\s*\d{5}-\d{4}"   maxlength="15" required>
                         
                         <label for="formDepartamentos">Departamentos</label>
                             <select id="formDepartamentos" name="formDepartamentos">
@@ -82,11 +88,8 @@
                                 </div>
                             </div>
     
-    
-    
-                        <label for="formContatos" >Qual a melhor forma para entrarmos em contato com você?</label>
-                                <div class="formContatos">
-                                
+                        <label for="formFormaDeContatos">Qual a melhor forma para entrarmos em contato com você?</label>
+                                <div class="formFormaDeContatos">
                                     <div>
                                          <input type="radio" id="formEmail" name="formEmail" value="Email">
                                          <label for="formEmail">Email</label>
@@ -101,15 +104,12 @@
                                     </div>
                                 </div>
     
-    
-                                
-                                
-                                
                         <label for="formMensagem">Mensagem</label>
                                 <textarea name="formMensagem" id="formMensagem" cols="10" rows="5"></textarea>
                                 
-                                <div>
-                                    <label for="formCurriculo">Curriculo</label>
+                                <div class="formCurriculo">
+                                    <p>Curriculo</p>
+                                    <label for="formCurriculo">upload</label>
                                     <input type="file" name="formCurriculo" id="formCurriculo">
                                 </div>
     
@@ -117,28 +117,35 @@
                       </form>
     
                 </section>
+<!-- // left side -->
     
-                <section class="form-bg-right">
-    
-                    <span>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi consectetur ad maxime atque tenetur, hic commodi, ab voluptates sequi voluptatem quia magni, nihil quod doloremque incidunt vel mollitia cupiditate excepturi accusamus repellat! Dolor error possimus, veniam atque accusamus labore libero?
-                    </span>
-                    <span>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate ipsa placeat officia quos inventore ad impedit omnis odit repellat quas eius consequuntur, nobis at quod modi fugit. Minima ea vitae obcaecati itaque, deleniti quo. Dolores ea error corrupti voluptas aliquam!
-                    </span>
-                    <span>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptatem et earum, unde itaque harum. Ullam earum pariatur, architecto rem a eius quam quos, debitis eveniet officiis officia, laboriosam perferendis tempora numquam suscipit itaque! Sed alias possimus, ipsam cumque ipsum nostrum ad enim, rerum ratione magni provident optio quidem natus impedit voluptatem delectus pariatur labore sequi dolor dolorem veniam.
-                    </span>
+<!-- right side -->
+                <section class="right-side">
+                    <div>
+                        <span>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi consectetur ad maxime atque tenetur, hic commodi, ab voluptates sequi voluptatem quia magni, nihil quod doloremque incidunt vel mollitia cupiditate excepturi accusamus repellat! Dolor error possimus, veniam atque accusamus labore libero?
+                        </span>
+                    </div>
+                    <div>
+                        <span>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate ipsa placeat officia quos inventore ad impedit omnis odit repellat quas eius consequuntur, nobis at quod modi fugit. Minima ea vitae obcaecati itaque, deleniti quo. Dolores ea error corrupti voluptas aliquam!
+                        </span>
+                    </div>
+                    <div>
+                        <span>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptatem et earum, unde itaque harum. Ullam earum pariatur, architecto rem a eius quam quos, debitis eveniet officiis officia, laboriosam perferendis tempora numquam suscipit itaque! Sed alias possimus, ipsam cumque ipsum nostrum ad enim, rerum ratione magni provident optio quidem natus impedit voluptatem delectus pariatur labore sequi dolor dolorem veniam.
+                        </span>
+                    </div>
     
                 </section>
+<!-- // right side -->
 
             </section>
-
-
-
+<!-- // main body -->
 
         </main>
-
+<!-- scaffold
+------------------------------------------------------------------------------ -->
 
 
 
@@ -149,7 +156,8 @@
 
 
 
-
+<!-- ---------------------------------------------------------------------------
+footer -->
         <footer>
 
             <div class="footer-left">
@@ -183,7 +191,8 @@
             </div>
 
         </footer>
-
+<!-- footer
+--------------------------------------------------------------------------------- -->
 
 
 
