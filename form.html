@@ -49,16 +49,17 @@
                     <form action="/action_page" method="POST">
 
                         <label for="formName">Nome</label>
-                        <input type="text" id="formName" name="formName" value="Ceo">
+                        <input type="text" id="formName" name="formName" placeholder="Nome">
 
                         <label for="formEmail">Email</label>
-                        <input type="text" id="formEmail" name="formEmail" value="formEmail">
+                        <input type="text" id="formEmail" name="formEmail" placeholder="Email">
                         
                         <label for="formTelefone">Telefone</label>
                         <input type="formTelefone" name="formTelefone" id="formTelefone" placeholder="Telefone" pattern="\(\d{2}\)\s*\d{5}-\d{4}"   maxlength="15" required>
                         
                         <label for="formDepartamentos">Departamentos</label>
                             <select id="formDepartamentos" name="formDepartamentos">
+                                <option value="valueDepartamentos_default"></option>
                                 <option value="valueDepartamentos_0A">Departamento 0A</option>
                                 <option value="valueDepartamentos_0B">Departamento 0B</option>
                                 <option value="valueDepartamentos_0C">Departamento 0C</option>

@@ -312,30 +312,40 @@ footer{
     display: flex;
     flex-direction: column;
 }
+.form-bg-left label{
+    padding-top: 1vw;
+}
 .form-bg-left form{
     display: flex;
     flex-direction: column;
     width: 90%;
-}
-.formContatos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: darkred;
-    width: 80%;
-}
-.formContatos div{
-    /* padding-right: 6vw; */
 }
 .formDisponibilidade{
     background: darkred;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 70%;
+    font-size: small;
+    margin: .5vw 0 0 0;
 }
 .formDisponibilidade div{
-    /* padding-right: 2vw; */
+    /* background: chocolate; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.formContatos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: darkred;
+    width: 60%;
+    margin: .5vw 0 0 0;
+
+}
+.formContatos div{
+    /* padding-right: 6vw; */
 }
 
 input[type="file"] {
