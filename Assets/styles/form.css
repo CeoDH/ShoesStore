@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: Open Sans;
     list-style: none;
+    border-color: #9B9B9B;
 }
 
 body{
@@ -343,6 +344,16 @@ footer{
 
 input[type="file"] {
     display: none;
+}
+input[type="text"],[type="tel"],textarea {
+    border: solid #9B9B9B 1px;
+    color: #9B9B9B;
+}
+select{
+    border: solid 1px;
+    border-color: #9B9B9B;
+    background: none;
+    color: #9B9B9B;
 }
 .formCurriculo{
     display: flex;
